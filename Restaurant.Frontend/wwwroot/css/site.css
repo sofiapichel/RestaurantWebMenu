@@ -27,7 +27,7 @@
 }
 
 /*BOTON OUR MENU*/
-.btn-ourMenu {
+.btn-contactUs {
     border-radius: 60px !important;
     border: 1px solid #000000;
     background-color: transparent !important;
@@ -40,7 +40,7 @@
     transition-property: background-color, color;
 }
 
-    .btn-ourMenu:hover {
+    .btn-contactUs:hover {
         background-color: #000000 !important;
         color: #e5e5e5;
     }
@@ -51,7 +51,19 @@ a {
 }
 
 
+@media only screen and (max-width: 1024px)  {
+    .img-home-1, .img-home-2, .img-logo {
+        display:none;
+    }
 
+}
+
+@media only screen and (max-width: 800px){
+
+    .info-img {
+        display: none;
+    }
+}
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -108,6 +120,10 @@ body {
     font-family: 'Urbanist', sans-serif;
 }
 
+img{
+    width   :100%;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -147,6 +163,7 @@ body {
 .img-logo {
     left: 40%;
     bottom: 0;
+    width:9rem;
 }
 
 /*ABOUT US*/
@@ -181,6 +198,10 @@ body {
         font-size: 33px;
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
+    }
+
+    #service img {
+        width:6rem;
     }
 
 /*MENU*/
@@ -231,4 +252,52 @@ body {
 #menu h4 {
     text-transform: uppercase;
     text-align:start;
+}
+
+/*INFO*/
+
+#info {
+    background-image: url(../images/bg-info-img.svg);
+    margin: 0;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.info-wrapper {
+    display: grid;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 70px;
+    grid-row-gap: 16px;
+    /*ms-grid-columns: minmax(200px, 277px) minmax(200px, 500px) minmax(200px, 277px);*/
+    grid-template-columns: minmax(200px, 277px) minmax(200px, 500px) minmax(200px, 277px);
+    /*-ms-grid-rows: auto;*/
+    grid-template-rows: auto;
+    text-align: center;
+}
+
+#info h4 {
+    font-family: Oswald, sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 200;
+    display: block;
+}
+.info-text {
+    display: block;
+    font-size:30px;
+    margin-bottom:4rem;
+    font-weight:300;
+}
+
+#info img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
 }

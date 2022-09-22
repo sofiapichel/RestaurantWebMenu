@@ -2,6 +2,7 @@ C:\Users\spichel\Documents\.NET-SMS\PROJECTS\Restaurant_Project\Restaurant.Model
 C:\Users\spichel\Documents\.NET-SMS\PROJECTS\Restaurant_Project\Restaurant.Models\Restaurant.Models\bin\Debug\net5.0\Restaurant.Models.dll
 C:\Users\spichel\Documents\.NET-SMS\PROJECTS\Restaurant_Project\Restaurant.Models\Restaurant.Models\bin\Debug\net5.0\ref\Restaurant.Models.dll
 C:\Users\spichel\Documents\.NET-SMS\PROJECTS\Restaurant_Project\Restaurant.Models\Restaurant.Models\bin\Debug\net5.0\Restaurant.Models.pdb
+C:\Users\spichel\Documents\.NET-SMS\PROJECTS\Restaurant_Project\Restaurant.Models\Restaurant.Models\obj\Debug\net5.0\Restaurant.Models.csproj.AssemblyReference.cache
 C:\Users\spichel\Documents\.NET-SMS\PROJECTS\Restaurant_Project\Restaurant.Models\Restaurant.Models\obj\Debug\net5.0\Restaurant.Models.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\spichel\Documents\.NET-SMS\PROJECTS\Restaurant_Project\Restaurant.Models\Restaurant.Models\obj\Debug\net5.0\Restaurant.Models.AssemblyInfoInputs.cache
 C:\Users\spichel\Documents\.NET-SMS\PROJECTS\Restaurant_Project\Restaurant.Models\Restaurant.Models\obj\Debug\net5.0\Restaurant.Models.AssemblyInfo.cs
@@ -9,4 +10,3 @@ C:\Users\spichel\Documents\.NET-SMS\PROJECTS\Restaurant_Project\Restaurant.Model
 C:\Users\spichel\Documents\.NET-SMS\PROJECTS\Restaurant_Project\Restaurant.Models\Restaurant.Models\obj\Debug\net5.0\Restaurant.Models.dll
 C:\Users\spichel\Documents\.NET-SMS\PROJECTS\Restaurant_Project\Restaurant.Models\Restaurant.Models\obj\Debug\net5.0\ref\Restaurant.Models.dll
 C:\Users\spichel\Documents\.NET-SMS\PROJECTS\Restaurant_Project\Restaurant.Models\Restaurant.Models\obj\Debug\net5.0\Restaurant.Models.pdb
-C:\Users\spichel\Documents\.NET-SMS\PROJECTS\Restaurant_Project\Restaurant.Models\Restaurant.Models\obj\Debug\net5.0\Restaurant.Models.csproj.AssemblyReference.cache

@@ -10,6 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Urbanist:wght@100;200;300;400;500&display=swap" rel="stylesheet">
 
+
+
+    @*CDN JQUERY 3.5.1 MIN JS*@
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+
     <link href="~/lib/splideJs/package/dist/css/splide.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
@@ -47,29 +53,44 @@
                         </li>
                     </ul>
 
-                    <button type="button" class="btn-contactUs" data-wait="Please wait...">
+                    <a class="btn-contactUs" asp-action="Index" asp-controller="ConsultaRestaurant">
                         Contact us
-                    </button>
+                    </a>
 
                 </div>
             </div>
         </nav>
     </header>
     <div>
-        <main role="main" >
+        <main role="main">
             @RenderBody()
         </main>
     </div>
 
-    @*<footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - Foody <a asp-area="" asp-controller="Home" asp-action="Privacy"></a>
+    @*ABM*@
+    <div class="modal" tabindex="-1" role="dialog" id="form-modal" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                </div>
+            </div>
         </div>
-    </footer>*@
+    </div>
 
     <script src="~/lib/splideJs/package/dist/js/splide.js"></script>
-    <script src="~/lib/splideJs/package/dist/js/splide-renderer.min.js"></script>   
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/splideJs/package/dist/js/splide-renderer.min.js"></script>
+
+    @*CDN JQUERY 3.5.1 MIN JS*@
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)

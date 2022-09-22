@@ -32,6 +32,8 @@
     border: 1px solid #000000;
     background-color: transparent !important;
     color: #000000;
+    display: block;
+    margin: 0 auto;
     padding: 0.5rem 1.7rem;
     transition: 0.5s;
     font-weight: 500;
@@ -123,7 +125,7 @@ body {
 
     background-image: url('../images/background.svg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: auto;
     font-family: 'Urbanist', sans-serif;
 }
 
@@ -466,4 +468,31 @@ img {
 }
 .footer-info {
     text-align:end;
+}
+
+/*CONTACT US INDEX*/
+#contactUs h1 {
+    font-family: Oswald, sans-serif !important ;
+    font-size: 60px;
+    padding-top: 40px;
+    font-weight:200;
+    color:#000000;
+    text-align:center;
+}
+
+#contactUs p {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.contactUs-form {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 3.5rem;
+    border: rgba(0, 0, 0, 0.1) solid 1px;
+    padding: 60px;
+    margin-left: 264px;
+    margin-right: 264px;
+    margin-bottom:50px;
 }

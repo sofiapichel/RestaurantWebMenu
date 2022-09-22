@@ -51,21 +51,24 @@ a {
 }
 
 
-@media only screen and (max-width: 1024px)  {
+@media only screen and (max-width: 1024px) {
     .img-home-1, .img-home-2, .img-logo {
-        display:none;
+        display: none;
     }
-
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 800px) {
 
     .info-img {
         display: none;
     }
 
     #team p {
-        font-size:17px;
+        font-size: 17px;
+    }
+
+    #reservation img {
+        display:none;
     }
 }
 
@@ -124,8 +127,8 @@ body {
     font-family: 'Urbanist', sans-serif;
 }
 
-img{
-    width   :100%;
+img {
+    width: 100%;
 }
 
 .footer {
@@ -167,7 +170,7 @@ img{
 .img-logo {
     left: 40%;
     bottom: 0;
-    width:9rem;
+    width: 9rem;
 }
 
 /*ABOUT US*/
@@ -205,7 +208,7 @@ img{
     }
 
     #service img {
-        width:6rem;
+        width: 6rem;
     }
 
 /*MENU*/
@@ -255,7 +258,7 @@ img{
 
 #menu h4 {
     text-transform: uppercase;
-    text-align:start;
+    text-align: start;
 }
 
 /*INFO*/
@@ -266,6 +269,7 @@ img{
     padding-left: 90px;
     padding-right: 90px;
 }
+
 .info-wrapper {
     display: grid;
     -webkit-box-pack: justify;
@@ -293,11 +297,12 @@ img{
     font-weight: 200;
     display: block;
 }
+
 .info-text {
     display: block;
-    font-size:30px;
-    margin-bottom:4rem;
-    font-weight:300;
+    font-size: 30px;
+    margin-bottom: 4rem;
+    font-weight: 300;
 }
 
 #info img {
@@ -307,20 +312,20 @@ img{
 }
 
 /*TEAM*/
-#team h2{
-    text-align:center;
-    font-weight:200;
-    font-size:75px;
-    color:#000;
+#team h2 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 75px;
+    color: #000;
 }
 
 #team p {
-    text-align:center;
-    font-size:22px;
+    text-align: center;
+    font-size: 22px;
 }
 
 .team-wrapper {
-    position: relative;    
+    position: relative;
     display: grid;
     grid-auto-columns: 1fr;
     grid-row-gap: 16px;
@@ -331,5 +336,80 @@ img{
 
 .team-img {
     width: 270px;
-    padding:25px;
+    padding: 25px;
 }
+
+/*RESERVATION*/
+
+#reservation img {
+    width: 550px;
+}
+
+#reservation h3 {
+    font-size: 40px;
+    font-weight: 200;
+    text-align:center;
+}
+
+#reservation p {
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.text-field {
+    height: auto;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-style: none none solid;
+    border-width: 1px;
+    border-color: #000 #000 rgba(0, 0, 0, 0.15);
+    color: #000;
+    font-size: 14px;
+    line-height: 1;
+}
+
+#reservation input:focus-within {
+    outline: none;
+}
+
+.contact-form {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 3.5rem;
+    border: rgba(0, 0, 0, 0.1) solid 1px;
+    padding: 60px;
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.reservation-section {
+    background-image: url(../images/bg-contact.svg);
+    background-size: cover;
+}
+
+#reservation-form .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+}
+
+    #reservation-form .grid-container * {
+        grid-column: 1 /3;
+    }
+
+    #reservation-form .grid-container :nth-child(1),
+    #reservation-form .grid-container :nth-child(3) {
+        grid-column: 1 /2;
+    }
+
+    #reservation-form .grid-container :nth-child(2),
+    #reservation-form .grid-container :nth-child(4) {
+        grid-column: 2 /3;
+    }

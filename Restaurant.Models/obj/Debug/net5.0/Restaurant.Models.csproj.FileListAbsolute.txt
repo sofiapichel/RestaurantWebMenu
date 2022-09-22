@@ -9,3 +9,4 @@ C:\Users\spichel\Documents\.NET-SMS\PROJECTS\Restaurant_Project\Restaurant.Model
 C:\Users\spichel\Documents\.NET-SMS\PROJECTS\Restaurant_Project\Restaurant.Models\Restaurant.Models\obj\Debug\net5.0\Restaurant.Models.dll
 C:\Users\spichel\Documents\.NET-SMS\PROJECTS\Restaurant_Project\Restaurant.Models\Restaurant.Models\obj\Debug\net5.0\ref\Restaurant.Models.dll
 C:\Users\spichel\Documents\.NET-SMS\PROJECTS\Restaurant_Project\Restaurant.Models\Restaurant.Models\obj\Debug\net5.0\Restaurant.Models.pdb
+C:\Users\spichel\Documents\.NET-SMS\PROJECTS\Restaurant_Project\Restaurant.Models\Restaurant.Models\obj\Debug\net5.0\Restaurant.Models.csproj.AssemblyReference.cache

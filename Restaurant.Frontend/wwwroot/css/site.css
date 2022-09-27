@@ -121,11 +121,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-    /* Margin bottom by footer height */
-
     background-image: url('../images/background.svg');
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
     font-family: 'Urbanist', sans-serif;
 }
 
@@ -478,12 +476,14 @@ img {
     font-weight:200;
     color:#000000;
     text-align:center;
+    
 }
 
 #contactUs p {
     text-align: center;
     font-size: 20px;
     padding-top: 10px;
+    letter-spacing: 2px;
 }
 
 .contactUs-form {
@@ -492,7 +492,7 @@ img {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 3.5rem;
     border: rgba(0, 0, 0, 0.1) solid 1px;
     padding: 60px;
-    margin-left: 264px;
-    margin-right: 264px;
-    margin-bottom:50px;
+    margin-left: 348px;
+    margin-right: 348px;
+    margin-bottom: 50px;
 }
